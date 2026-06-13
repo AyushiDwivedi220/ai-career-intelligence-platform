@@ -1,18 +1,21 @@
 # Python
-venv/
-backend/venv/
 __pycache__/
 *.pyc
 
+# Virtual Environment
+venv/
+.env
+
 # Django
 db.sqlite3
+media/
+resumes/
 
-# Environment
-.env
+# VS Code
+.vscode/
 
 # React
 node_modules/
-dist/
 
-# macOS
+# Mac
 .DS_Store

@@ -39,4 +39,9 @@ urlpatterns = [
         TokenRefreshView.as_view(),
         name='token_refresh'
     ),
+
+    path(
+    "api/profile/",
+    include("profile_agent.api.urls")
+),
 ]

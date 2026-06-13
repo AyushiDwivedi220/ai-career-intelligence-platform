@@ -43,6 +43,7 @@ INSTALLED_APPS = [
 
     'accounts',
     'taxonomy',
+    'profile_agent',
 ]
 
 MIDDLEWARE = [
